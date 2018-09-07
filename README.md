@@ -11,8 +11,8 @@ Processing [demo.md] with `pandoc -s --filter pandoc-comments` gives output in [
 If you find pandoc-comments useful, then please kindly give it a star [on GitHub].
 
 [pandoc]: http://pandoc.org/
-[demo.md]: https://raw.githubusercontent.com/tomduck/pandoc-lettrine/master/demos/demo.md
-[pdf]: https://rawgit.com/tomduck/pandoc-lettrine/master/demos/out/demo.pdf
-[tex]: https://rawgit.com/tomduck/pandoc-lettrine/master/demos/out/demo.tex
-[html]: https://rawgit.com/tomduck/pandoc-lettrine/master/demos/out/demo.html
-[on GitHub]:  https://github.com/tomduck/pandoc-lettrine
+[demo.md]: https://raw.githubusercontent.com/tomduck/pandoc-comments/master/demos/demo.md
+[pdf]: https://rawgit.com/tomduck/pandoc-comments/master/demos/out/demo.pdf
+[tex]: https://rawgit.com/tomduck/pandoc-comments/master/demos/out/demo.tex
+[html]: https://rawgit.com/tomduck/pandoc-comments/master/demos/out/demo.html
+[on GitHub]:  https://github.com/tomduck/pandoc-comments
