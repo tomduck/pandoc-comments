@@ -2,9 +2,11 @@
 pandoc-comments 0.1.0
 =====================
 
-*pandoc-comments* is a [pandoc] filter that adds a syntax extension to markdown for block comments.  Python  is required.
+*pandoc-comments* is a [pandoc] filter that adds a syntax extension to markdown for block comments.
 
-Block comments are denoted by using a percent sign (%) at the beginning of a paragraph.  For example, see [demo.md].
+Python  is required.  Install pandoc-comments using `python setup.py install`.  This can be made available via `pip` on request.
+
+Block comments are declared in markdown documents by using a percent sign (%) at the beginning of a paragraph.  For example, see [demo.md].  Inline comments are not supported.
 
 Processing [demo.md] with `pandoc -s --filter pandoc-comments` gives output in [md], [pdf], [tex], and [html] formats.  Notice that comments are stripped from all output files.
 
