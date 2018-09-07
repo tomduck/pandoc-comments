@@ -1,0 +1,22 @@
+
+Developer Notes
+===============
+
+Preparing a Release
+-------------------
+
+Tagging:
+
+    $ git tag -a <tag> -m <message>
+    $ git push origin <tag>
+
+
+Creating a source distribution:
+
+    $ python3 setup.py sdist
+
+Uploading to pypi (update the version number):
+
+    $ twine upload dist/pandoc-comments-0.1.0.tar.gz
+
+(from https://pypi.python.org/pypi/twine).
