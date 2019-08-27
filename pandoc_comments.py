@@ -6,7 +6,7 @@
 import sys
 
 from pandocfilters import toJSONFilter
-from pandocfilters import Para
+from pandocfilters import Null
 
 
 # pylint: disable=unused-argument
@@ -18,7 +18,7 @@ def action(k, v, fmt, meta):
 
         # Comments begin with a %
         if v[0]['t'] == 'Str' and len(v[0]['c']) and v[0]['c'][0] == '%':
-            return Para([])
+            return Null()
 
     return None
 
