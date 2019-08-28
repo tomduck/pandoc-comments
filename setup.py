@@ -9,7 +9,7 @@ DESCRIPTION = """A pandoc filter for block comments in markdown documents."""
 # From https://stackoverflow.com/a/39671214
 __version__ = re.search(
     r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
-    io.open('pandoc_marginnote.py', encoding='utf_8_sig').read()
+    io.open('pandoc_comments.py', encoding='utf_8_sig').read()
     ).group(1)
 
 setup(
