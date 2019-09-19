@@ -6,7 +6,7 @@ pandoc-comments 0.1.0
 
 Python  is required.  Install pandoc-comments using `python setup.py install`.  This can be made available via `pip` on request.
 
-Block comments are declared in markdown documents by using a percent sign (%) at the beginning of a paragraph.  Percent signs may be used on subsequent lines but have no additional effect.  For example, see [demo.md].  Inline comments are not supported.  Comments in YAML metadata are not supported.
+Block comments are declared in markdown documents by using a percent sign (%) at the beginning of a paragraph.  Percent signs used on subsequent lines of a paragraph may be used but have no additional effect.  For example, see [demo.md].  Inline comments are not supported.  Pandoc metadata blocks are not processed by this filter.
 
 Processing [demo.md] with `pandoc -s --filter pandoc-comments` gives output in [md], [pdf], [tex], and [html] formats.  Notice that comments are stripped from all output files.
 
