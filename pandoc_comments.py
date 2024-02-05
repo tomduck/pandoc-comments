@@ -33,7 +33,7 @@ def action(k, v, fmt, meta):
 
         # Comments begin with a %
         if v[0]['t'] == 'Str' and v[0]['c'] and v[0]['c'][0] == '%':
-            return Null()
+            return []
 
     return None
 
